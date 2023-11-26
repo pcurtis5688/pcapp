@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PCApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Paul Curtis</string>
+    <string name="nav_header_subtitle">pcurtis5688@gmail.com</string>
+    <string name="nav_header_subtitle2">(412) 716–0747</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- HOME FRAGMENT STRINGS -->
+    <string name="menu_home">Home</string>
+    <string name="home_welcomemsg">Hello, World! Even though this is fairly basic, hopefully it catches someone\'s eye, Tee. 🤔</string>
+    <string name="home_img_contdesc">Home Image</string>
+
+    <!-- GALLERY FRAGMENT STRINGS-->
+    <string name="menu_resume">Resume</string>
+
+    <!-- SLIDESHOW FRAGMENT STRINGS-->
+    <string name="menu_portfolio">Portfolio</string>
+</resources>
