@@ -1,6 +1,7 @@
 package us.paulcurtis.pcapp;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -46,6 +47,11 @@ public class PCAppMainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+        menu.getItem(0).setOnMenuItemClickListener(item -> {
+            Log.d("MenuItem onClick working...", "MenuItem ID: " + item.getItemId());
+            /*TODO Inflate?? the settings fragment into the fragment container? Figure out this */
+            return false;
+        });
         return true;
     }
 
