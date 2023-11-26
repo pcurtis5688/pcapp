@@ -10,5 +10,6 @@
 
     <!-- FONT SIZING DIMENS -->
     <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="twentyfour_sp">24sp</dimen>
     <dimen name="thirtytwo_sp">32sp</dimen>
 </resources>
