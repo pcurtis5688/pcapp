@@ -10,18 +10,18 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import us.paulcurtis.pcapp.databinding.FragmentSlideshowBinding;
+import us.paulcurtis.pcapp.databinding.FragmentPortfolioBinding;
 
 public class PortfolioFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentPortfolioBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         PortfolioViewModel portfolioViewModel =
                 new ViewModelProvider(this).get(PortfolioViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentPortfolioBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;

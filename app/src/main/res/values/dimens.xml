@@ -8,8 +8,17 @@
     <dimen name="ten_margin">10dp</dimen>
     <dimen name="five_margin">5dp</dimen>
 
+    <!-- VARIOUS DP SIZES -->
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="onetwentyeight_dp">128dp</dimen>
+    <dimen name="twofiftysix_dp">256dp</dimen>
+
     <!-- FONT SIZING DIMENS -->
     <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="twentyone_sp">21sp</dimen>
     <dimen name="twentyfour_sp">24sp</dimen>
     <dimen name="thirtytwo_sp">32sp</dimen>
+    <dimen name="thirtysix_sp">36sp</dimen>
+    <dimen name="fourtytwo_sp">42sp</dimen>
+    <dimen name="sixtyfour_sp">64sp</dimen>
 </resources>

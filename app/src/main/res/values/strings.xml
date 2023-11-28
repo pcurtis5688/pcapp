@@ -10,8 +10,12 @@
 
     <!-- HOME FRAGMENT STRINGS -->
     <string name="menu_home">Home</string>
-    <string name="home_welcomemsg">Hello, World! Turning frustration into code, Tee. Frustration into code. 😝</string>
     <string name="home_img_contdesc">Home Image</string>
+    <string name="pc_home_text">Hello! I came across this role and was hoping to find a time to discuss it in more detail; I\'m actively looking at the moment and would really like to find a role that I can dedicate myself to and grow as a professional, as a coder, and as a person. At the same time, I feel that I too bring valuable experience to the table.
+        All the best and I appreciate your time,</string>
+    <string name="pc_home_sigtext">» Paul Curtis%1$s
+        » Cell: 412-716-0747
+        » pcurtis5688@gmail.com</string>
 
     <!-- GALLERY FRAGMENT STRINGS-->
     <string name="menu_resume">Resume</string>

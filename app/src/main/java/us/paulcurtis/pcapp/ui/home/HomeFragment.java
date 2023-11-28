@@ -24,11 +24,15 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
+        /* SET THE HOME VIEWS TEXT VIEW VALUES */
+        final TextView textView = binding.pcHomeText;
         homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        /*TODO FINISH FIGURING THIS OUT.
+           context.getString(R.string.my_string, fun)
+           String sigString = binding.pcHomeSigtext.setText(); */
+
         return root;
     }
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();

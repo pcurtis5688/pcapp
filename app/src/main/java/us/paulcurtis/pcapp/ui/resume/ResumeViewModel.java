@@ -10,7 +10,6 @@ public class ResumeViewModel extends ViewModel {
 
     public ResumeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
     }
 
     public LiveData<String> getText() {

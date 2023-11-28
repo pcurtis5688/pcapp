@@ -8,28 +8,37 @@
     tools:context=".ui.home.HomeFragment">
 
     <ImageView
-        android:id="@+id/home_imgview"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="@dimen/ten_margin"
+        android:id="@+id/pc_home_selfie"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/pcappicon"
-        android:contentDescription="@string/app_name" />
+        android:layout_height="@dimen/twofiftysix_dp"
+        android:contentDescription="@string/home_img_contdesc"
+        android:src="@drawable/pc_home_selfie"
+        app:layout_constraintEnd_toStartOf="@id/pc_home_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_home"
-        android:layout_width="257dp"
-        android:layout_height="355dp"
-        android:layout_marginTop="@dimen/five_margin"
-        android:text="@string/home_welcomemsg"
+        android:id="@+id/pc_home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:textAlignment="center"
+        android:text="@string/pc_home_text"
         android:textColor="@color/purple_700"
-        android:gravity="center"
-        android:textSize="@dimen/thirtytwo_sp"
+        android:textSize="@dimen/twentyone_sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.84" />
+        app:layout_constraintTop_toBottomOf="@+id/pc_home_selfie"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/pc_home_sigtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pc_home_sigtext"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pc_home_text" />
 </androidx.constraintlayout.widget.ConstraintLayout>

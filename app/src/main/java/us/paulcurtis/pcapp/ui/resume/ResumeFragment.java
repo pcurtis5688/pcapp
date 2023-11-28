@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import us.paulcurtis.pcapp.R;
 import us.paulcurtis.pcapp.databinding.FragmentResumeBinding;
 
 public class ResumeFragment extends Fragment {
@@ -24,8 +25,10 @@ public class ResumeFragment extends Fragment {
         binding = FragmentResumeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        resumeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textviewResume = binding.textviewResume;
+        textviewResume.setText(R.string.menu_resume);
+
+        resumeViewModel.getText().observe(getViewLifecycleOwner(), textviewResume::setText);
         return root;
     }
 
